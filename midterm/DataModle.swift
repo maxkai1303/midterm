@@ -20,16 +20,20 @@ class DataModle {
     var saveContent: String = ""
     var saveTime = FirebaseFirestore.FieldValue.serverTimestamp()
     
+    var passEmail: String = ""
+    var passId: String = ""
+    var passName: String = ""
+    
     
     func addData(title: String, category: String, content: String) {
         let articles = Firestore.firestore().collection("articles")
         let document = articles.document()
-        
+        guard passEmail != "" && passId != "" && passName != ""  else { return }
         let data:[String: Any] = [
             "author": [
-                "email": "wayne@school.appworks.tw",
-                "id": "waynechen323",
-                "name": "AKA小安老師"
+                "email": passEmail,
+                "id": passId,
+                "name": passName
             ],
             "title": title,
             "content": content,

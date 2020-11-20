@@ -29,7 +29,6 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大和是角川遊戲所開發的卡牌類網頁遊戲《艦隊Collection》（艦隊これくしょん -艦これ-)1942年（昭和17年）2月12日，「大和」成為聯合艦隊旗艦。因「大和」比前旗艦戰艦「長門」的居住性更佳，而令參謀們相當歡喜" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="57w-Lg-bsJ">
                                                     <rect key="frame" x="20" y="11" width="374" height="60"/>
-                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="glc-zE-b3X"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="kWY-la-tIV"/>
@@ -40,19 +39,17 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swh-u5-BY3">
                                                     <rect key="frame" x="20" y="158" width="374" height="142"/>
-                                                    <color key="backgroundColor" systemColor="systemTealColor"/>
-                                                    <mutableString key="text">大和號是IJN（舊日本海軍）建造的戰列艦，亦為史上噸位最大的戰列艦。大和級戰列艦一號艦。太平洋戰爭開戰後的1941年12月16日開始服役，1942年2月12日成為聯合艦隊的旗艦。
+                                                    <string key="text">大和號是IJN（舊日本海軍）建造的戰列艦，亦為史上噸位最大的戰列艦。大和級戰列艦一號艦。太平洋戰爭開戰後的1941年12月16日開始服役，1942年2月12日成為聯合艦隊的旗艦。
 
 作為IJN的決戰兵器，大和級體現了舊日本帝國造艦技術的頂峰。受日本海軍“個艦優越主義”的思想影響，大和級的設計思路很簡單——極致的強大。大和級戰列艦以其裝備的9門460毫米口徑巨型主砲聞名於世，該艦砲是迄今為止正式服役過的海軍艦砲中口徑最大者。每門該砲砲身長21.3米，其三聯裝的砲塔總重1720噸，砲身重165噸，加上彈藥和砲塔裝甲的總重約2700噸，已相當於一艘二戰驅逐艦的排水量。根據理論和部分實驗，該砲可以貫穿所有服役過的正規戰列艦的主裝甲帶。另一方面，大和是一艘約65000噸排水量，263米長的龐然大物，同樣是超越了當時所有現役戰艦，其20°傾斜側舷裝甲也厚達410mm（鴨華307mm19°傾斜等效439mm垂直裝甲，可想大和主裝的實際防禦力，另外傾斜主裝等效厚度並不是簡單的三角函數，由於主裝傾斜放大了跳彈效應，所以實際等效厚度大於三角函數的折算值），提供了優秀的防禦力。總體來說，大和級堪稱二戰戰列艦的巔峰之作，除了27節的航速略微低於其他國家的一線戰艦之外（若不考慮為航母護航任務，則該問題影響相對較小），各項指標都可謂登峰造極，尤其是其主砲的口徑從未被超越過未來也不太可能被超越了。
 
-1905年頒布的《日本海軍艦艇命名辦法》規定：戰列艦應以古國名（“國”是古日本地方行政單位）命名。“大和”的正式稱呼是“軍艦大和”，艦名“大和”的由來是以古代日本畿內五國（現稱為近畿地區）之一的大和國（現稱為奈良縣）來命名。使用日本的中心地及代名詞“大和”作為艦名，而大和也是日本人對自身民族的稱呼，可知日本海軍對該艦期待的程度。</mutableString>
+1905年頒布的《日本海軍艦艇命名辦法》規定：戰列艦應以古國名（“國”是古日本地方行政單位）命名。“大和”的正式稱呼是“軍艦大和”，艦名“大和”的由來是以古代日本畿內五國（現稱為近畿地區）之一的大和國（現稱為奈良縣）來命名。使用日本的中心地及代名詞“大和”作為艦名，而大和也是日本人對自身民族的稱呼，可知日本海軍對該艦期待的程度。</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試名稱測試名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUn-vF-SFP">
                                                     <rect key="frame" x="20" y="84" width="139" height="24"/>
-                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="9RH-ps-M1L"/>
                                                     </constraints>
@@ -62,7 +59,6 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試時間測試時間" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nh-do-hGL">
                                                     <rect key="frame" x="20" y="121" width="139" height="24"/>
-                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="kpH-Y7-pOy"/>
                                                     </constraints>
@@ -72,9 +68,9 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試分類" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsD-Tj-rdI">
                                                     <rect key="frame" x="324" y="84" width="70" height="24"/>
-                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -165,7 +161,6 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ym6-i7-Y9A">
                                         <rect key="frame" x="8" y="92" width="358" height="335"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -179,6 +174,9 @@
                                         <state key="normal" title="Send">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendButton:" destination="EuC-XU-VlM" eventType="touchUpInside" id="KNg-SE-tl7"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="input category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b03-50-scy">
                                         <rect key="frame" x="8" y="50" width="358" height="34"/>
@@ -252,14 +250,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

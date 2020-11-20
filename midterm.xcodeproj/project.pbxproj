@@ -17,6 +17,7 @@
 		453397342566A9A5008BCB4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453397332566A9A5008BCB4A /* GoogleService-Info.plist */; };
 		453397B425675FA7008BCB4A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453397B325675FA7008BCB4A /* MainTableViewCell.swift */; };
 		453397B7256773C4008BCB4A /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453397B6256773C4008BCB4A /* AddNewViewController.swift */; };
+		453397D125677820008BCB4A /* DataModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453397D025677820008BCB4A /* DataModle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		453397332566A9A5008BCB4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		453397B325675FA7008BCB4A /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		453397B6256773C4008BCB4A /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		453397D025677820008BCB4A /* DataModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				453397242566A799008BCB4A /* Main.storyboard */,
 				453397B6256773C4008BCB4A /* AddNewViewController.swift */,
 				453397B325675FA7008BCB4A /* MainTableViewCell.swift */,
+				453397D025677820008BCB4A /* DataModle.swift */,
 				453397272566A79A008BCB4A /* Assets.xcassets */,
 				453397292566A79A008BCB4A /* LaunchScreen.storyboard */,
 				453397332566A9A5008BCB4A /* GoogleService-Info.plist */,
@@ -218,6 +221,7 @@
 				453397B7256773C4008BCB4A /* AddNewViewController.swift in Sources */,
 				453397232566A799008BCB4A /* ViewController.swift in Sources */,
 				4533971F2566A799008BCB4A /* AppDelegate.swift in Sources */,
+				453397D125677820008BCB4A /* DataModle.swift in Sources */,
 				453397B425675FA7008BCB4A /* MainTableViewCell.swift in Sources */,
 				453397212566A799008BCB4A /* SceneDelegate.swift in Sources */,
 			);

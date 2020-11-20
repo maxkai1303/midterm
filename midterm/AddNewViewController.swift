@@ -8,7 +8,10 @@
 import UIKit
 
 
+
 class AddNewViewController: UIViewController {
+    
+    let dataModle = DataModle()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,4 +26,17 @@ class AddNewViewController: UIViewController {
         contentTextView.layer.borderColor = UIColor.lightGray.cgColor
     }
     
+    @IBAction func sendButton(_ sender: Any) {
+        if titleTextField.text == "" || categoryTextField.text == "" || contentTextView.text == "" {
+            let alert = UIAlertController(title: "錯誤！", message: "欄位不得為空", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(okAction)
+            present(alert, animated: true, completion: nil)
+        } else {
+            dataModle.addData(title: titleTextField.text!, category: categoryTextField.text!, content: contentTextView.text)
+            print("新增資料成功")
+        }
+        dataModle.readData()
+        navigationController?.popViewController(animated: true)
+    }
 }

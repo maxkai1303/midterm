@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>278241750380-tru5vj2t1s9j1bse4uqio2are1vejgd3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.278241750380-tru5vj2t1s9j1bse4uqio2are1vejgd3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2_ptHW5nf2hiZEy1lueAG_rh4WIJAKBM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>278241750380</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.max.midterm</string>
+	<key>PROJECT_ID</key>
+	<string>midterm-d3c24</string>
+	<key>STORAGE_BUCKET</key>
+	<string>midterm-d3c24.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:278241750380:ios:42c4861f0eb88d54199749</string>
+	<key>DATABASE_URL</key>
+	<string>https://midterm-d3c24.firebaseio.com</string>
+</dict>
+</plist>

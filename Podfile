@@ -9,6 +9,7 @@ target 'midterm' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
-
+  pod 'EasyRefresher'
+  pod 'IQKeyboardManager'
 
 end

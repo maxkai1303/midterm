@@ -1,24 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qef-bl-ouK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Publisher-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="midterm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YRr-iv-l3w">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="mainTableViewCell" rowHeight="311" id="U0r-1e-S3d" customClass="MainTableViewCell" customModule="midterm" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="311"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U0r-1e-S3d" id="o4F-hM-gvs">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="311"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大和是角川遊戲所開發的卡牌類網頁遊戲《艦隊Collection》（艦隊これくしょん -艦これ-)1942年（昭和17年）2月12日，「大和」成為聯合艦隊旗艦。因「大和」比前旗艦戰艦「長門」的居住性更佳，而令參謀們相當歡喜" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="57w-Lg-bsJ">
+                                                    <rect key="frame" x="20" y="11" width="374" height="60"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="glc-zE-b3X"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="kWY-la-tIV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swh-u5-BY3">
+                                                    <rect key="frame" x="20" y="158" width="374" height="142"/>
+                                                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                    <mutableString key="text">大和號是IJN（舊日本海軍）建造的戰列艦，亦為史上噸位最大的戰列艦。大和級戰列艦一號艦。太平洋戰爭開戰後的1941年12月16日開始服役，1942年2月12日成為聯合艦隊的旗艦。
+
+作為IJN的決戰兵器，大和級體現了舊日本帝國造艦技術的頂峰。受日本海軍“個艦優越主義”的思想影響，大和級的設計思路很簡單——極致的強大。大和級戰列艦以其裝備的9門460毫米口徑巨型主砲聞名於世，該艦砲是迄今為止正式服役過的海軍艦砲中口徑最大者。每門該砲砲身長21.3米，其三聯裝的砲塔總重1720噸，砲身重165噸，加上彈藥和砲塔裝甲的總重約2700噸，已相當於一艘二戰驅逐艦的排水量。根據理論和部分實驗，該砲可以貫穿所有服役過的正規戰列艦的主裝甲帶。另一方面，大和是一艘約65000噸排水量，263米長的龐然大物，同樣是超越了當時所有現役戰艦，其20°傾斜側舷裝甲也厚達410mm（鴨華307mm19°傾斜等效439mm垂直裝甲，可想大和主裝的實際防禦力，另外傾斜主裝等效厚度並不是簡單的三角函數，由於主裝傾斜放大了跳彈效應，所以實際等效厚度大於三角函數的折算值），提供了優秀的防禦力。總體來說，大和級堪稱二戰戰列艦的巔峰之作，除了27節的航速略微低於其他國家的一線戰艦之外（若不考慮為航母護航任務，則該問題影響相對較小），各項指標都可謂登峰造極，尤其是其主砲的口徑從未被超越過未來也不太可能被超越了。
+
+1905年頒布的《日本海軍艦艇命名辦法》規定：戰列艦應以古國名（“國”是古日本地方行政單位）命名。“大和”的正式稱呼是“軍艦大和”，艦名“大和”的由來是以古代日本畿內五國（現稱為近畿地區）之一的大和國（現稱為奈良縣）來命名。使用日本的中心地及代名詞“大和”作為艦名，而大和也是日本人對自身民族的稱呼，可知日本海軍對該艦期待的程度。</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試名稱測試名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUn-vF-SFP">
+                                                    <rect key="frame" x="20" y="84" width="139" height="24"/>
+                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="9RH-ps-M1L"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試時間測試時間" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nh-do-hGL">
+                                                    <rect key="frame" x="20" y="121" width="139" height="24"/>
+                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="kpH-Y7-pOy"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="測試分類" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsD-Tj-rdI">
+                                                    <rect key="frame" x="324" y="84" width="70" height="24"/>
+                                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="swh-u5-BY3" firstAttribute="bottom" secondItem="o4F-hM-gvs" secondAttribute="bottomMargin" id="7V1-8H-vCx"/>
+                                                <constraint firstItem="qUn-vF-SFP" firstAttribute="top" secondItem="57w-Lg-bsJ" secondAttribute="bottom" constant="13" id="9oU-cX-zlW"/>
+                                                <constraint firstItem="JsD-Tj-rdI" firstAttribute="trailing" secondItem="o4F-hM-gvs" secondAttribute="trailingMargin" id="AF5-KF-fak"/>
+                                                <constraint firstItem="swh-u5-BY3" firstAttribute="top" secondItem="5Nh-do-hGL" secondAttribute="bottom" constant="13" id="FlF-rY-Uc5"/>
+                                                <constraint firstItem="swh-u5-BY3" firstAttribute="leading" secondItem="o4F-hM-gvs" secondAttribute="leadingMargin" id="HDf-yB-OvX"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="57w-Lg-bsJ" secondAttribute="trailingMargin" constant="8" id="Neb-g0-jUA"/>
+                                                <constraint firstItem="swh-u5-BY3" firstAttribute="trailing" secondItem="o4F-hM-gvs" secondAttribute="trailingMargin" id="WFy-7J-kAq"/>
+                                                <constraint firstItem="JsD-Tj-rdI" firstAttribute="top" secondItem="57w-Lg-bsJ" secondAttribute="bottom" constant="13" id="WOo-lv-Tmx"/>
+                                                <constraint firstItem="qUn-vF-SFP" firstAttribute="centerY" secondItem="JsD-Tj-rdI" secondAttribute="centerY" id="XKT-a4-IIP"/>
+                                                <constraint firstItem="57w-Lg-bsJ" firstAttribute="leading" secondItem="o4F-hM-gvs" secondAttribute="leadingMargin" id="cC0-Qk-DpW"/>
+                                                <constraint firstItem="5Nh-do-hGL" firstAttribute="leading" secondItem="qUn-vF-SFP" secondAttribute="leading" id="gDP-Gb-1ee"/>
+                                                <constraint firstItem="qUn-vF-SFP" firstAttribute="leading" secondItem="o4F-hM-gvs" secondAttribute="leadingMargin" id="lKU-ff-5Gy"/>
+                                                <constraint firstItem="swh-u5-BY3" firstAttribute="top" secondItem="JsD-Tj-rdI" secondAttribute="bottom" constant="50" id="lsS-Xe-1MF"/>
+                                                <constraint firstItem="57w-Lg-bsJ" firstAttribute="top" secondItem="o4F-hM-gvs" secondAttribute="topMargin" id="slm-W3-5ZP"/>
+                                                <constraint firstItem="5Nh-do-hGL" firstAttribute="top" secondItem="qUn-vF-SFP" secondAttribute="bottom" constant="13" id="t5B-p8-HH2"/>
+                                                <constraint firstItem="JsD-Tj-rdI" firstAttribute="height" secondItem="qUn-vF-SFP" secondAttribute="height" id="xot-9z-FRm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="category" destination="JsD-Tj-rdI" id="qE5-v8-Wck"/>
+                                            <outlet property="contentLabel" destination="swh-u5-BY3" id="ceB-6m-EfA"/>
+                                            <outlet property="nameLabel" destination="qUn-vF-SFP" id="1ql-8K-uFD"/>
+                                            <outlet property="timeLabel" destination="5Nh-do-hGL" id="ipV-9k-kje"/>
+                                            <outlet property="titleLabel" destination="57w-Lg-bsJ" id="A5Q-Di-dEC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Fla-Fv-OCB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="65b-cW-e8G"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q0-ZO-iUd">
+                                <rect key="frame" x="328" y="776" width="70" height="70"/>
+                                <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="3jm-JL-Vr8"/>
+                                    <constraint firstAttribute="height" constant="70" id="dvZ-kl-6yE"/>
+                                </constraints>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="edit"/>
+                                <connections>
+                                    <segue destination="EuC-XU-VlM" kind="show" id="tqQ-06-Yai"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Q0-ZO-iUd" secondAttribute="trailing" constant="16" id="3gz-It-Ing"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Q0-ZO-iUd" secondAttribute="bottom" constant="16" id="LIs-W7-s9a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YRr-iv-l3w" secondAttribute="bottom" id="MMs-QT-i7s"/>
+                            <constraint firstItem="YRr-iv-l3w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bPM-UI-P08"/>
+                            <constraint firstItem="YRr-iv-l3w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="flg-XK-Y7v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YRr-iv-l3w" secondAttribute="trailing" id="t8N-4B-qT8"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Publisher" id="HCV-WY-zLA"/>
+                    <connections>
+                        <outlet property="mainTableView" destination="YRr-iv-l3w" id="yNp-fv-7Un"/>
+                        <outlet property="publishButton" destination="0Q0-ZO-iUd" id="AwZ-Bd-QRS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1039.1304347826087" y="88.392857142857139"/>
+        </scene>
+        <!--Add New View Controller-->
+        <scene sceneID="g4J-Ra-Y8R">
+            <objects>
+                <viewController id="EuC-XU-VlM" customClass="AddNewViewController" customModule="midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7hp-k5-XWo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHZ-ht-Jo0">
+                                <rect key="frame" x="20" y="168" width="374" height="473"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="input title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KjF-HS-DRM">
+                                        <rect key="frame" x="8" y="8" width="358" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ym6-i7-Y9A">
+                                        <rect key="frame" x="8" y="92" width="358" height="335"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VB-HO-5eK">
+                                        <rect key="frame" x="8" y="435" width="358" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.85490196080000003" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gc7-Nd-vou"/>
+                                        </constraints>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="input category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b03-50-scy">
+                                        <rect key="frame" x="8" y="50" width="358" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ym6-i7-Y9A" firstAttribute="leading" secondItem="VHZ-ht-Jo0" secondAttribute="leading" constant="8" id="2Xx-kM-uhB"/>
+                                    <constraint firstItem="b03-50-scy" firstAttribute="top" secondItem="KjF-HS-DRM" secondAttribute="bottom" constant="8" symbolic="YES" id="B9A-Dm-AVR"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="KjF-HS-DRM" secondAttribute="trailing" id="DEf-r9-sps"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="473" id="Ii7-8U-a7o"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="4VB-HO-5eK" secondAttribute="trailing" id="L1L-PQ-80y"/>
+                                    <constraint firstItem="KjF-HS-DRM" firstAttribute="top" secondItem="VHZ-ht-Jo0" secondAttribute="topMargin" id="MVo-Yy-Zdx"/>
+                                    <constraint firstItem="4VB-HO-5eK" firstAttribute="top" secondItem="ym6-i7-Y9A" secondAttribute="bottom" constant="8" id="Ren-cC-HKO"/>
+                                    <constraint firstItem="b03-50-scy" firstAttribute="trailing" secondItem="KjF-HS-DRM" secondAttribute="trailing" id="UN9-25-z5k"/>
+                                    <constraint firstItem="KjF-HS-DRM" firstAttribute="leading" secondItem="VHZ-ht-Jo0" secondAttribute="leadingMargin" id="Z0k-rq-7nk"/>
+                                    <constraint firstItem="ym6-i7-Y9A" firstAttribute="top" secondItem="b03-50-scy" secondAttribute="bottom" constant="8" symbolic="YES" id="hXm-FI-BbD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ym6-i7-Y9A" secondAttribute="trailing" constant="8" id="ifC-Sm-qTv"/>
+                                    <constraint firstItem="4VB-HO-5eK" firstAttribute="leading" secondItem="VHZ-ht-Jo0" secondAttribute="leadingMargin" id="lEa-Yy-DWk"/>
+                                    <constraint firstItem="4VB-HO-5eK" firstAttribute="bottom" secondItem="VHZ-ht-Jo0" secondAttribute="bottomMargin" id="yEu-xF-gb5"/>
+                                    <constraint firstItem="b03-50-scy" firstAttribute="leading" secondItem="KjF-HS-DRM" secondAttribute="leading" id="yQR-IA-1dy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jvJ-tK-vhE"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jvJ-tK-vhE" firstAttribute="bottom" secondItem="VHZ-ht-Jo0" secondAttribute="bottom" constant="221" id="Dzn-X2-cn5"/>
+                            <constraint firstItem="jvJ-tK-vhE" firstAttribute="trailing" secondItem="VHZ-ht-Jo0" secondAttribute="trailing" constant="20" id="jRX-pl-GHc"/>
+                            <constraint firstItem="VHZ-ht-Jo0" firstAttribute="top" secondItem="jvJ-tK-vhE" secondAttribute="top" constant="80" id="wlJ-ey-REF"/>
+                            <constraint firstItem="VHZ-ht-Jo0" firstAttribute="leading" secondItem="jvJ-tK-vhE" secondAttribute="leading" constant="20" id="xTD-do-fRq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fXG-wX-ANX"/>
+                    <connections>
+                        <outlet property="categoryTextField" destination="b03-50-scy" id="EgH-aA-7FG"/>
+                        <outlet property="contentTextView" destination="ym6-i7-Y9A" id="M9d-55-eu6"/>
+                        <outlet property="titleTextField" destination="KjF-HS-DRM" id="43t-hk-URz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4w5-8L-5MH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="87.723214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wmM-QU-u9B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qef-bl-ouK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nMT-fw-JrL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="As8-04-i8l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CS2-iv-G2t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="88.392857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="edit" width="32" height="32"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

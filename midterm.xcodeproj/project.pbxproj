@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		453397282566A79A008BCB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453397272566A79A008BCB4A /* Assets.xcassets */; };
 		4533972B2566A79A008BCB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453397292566A79A008BCB4A /* LaunchScreen.storyboard */; };
 		453397342566A9A5008BCB4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453397332566A9A5008BCB4A /* GoogleService-Info.plist */; };
+		453397B425675FA7008BCB4A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453397B325675FA7008BCB4A /* MainTableViewCell.swift */; };
+		453397B7256773C4008BCB4A /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453397B6256773C4008BCB4A /* AddNewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4533972A2566A79A008BCB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4533972C2566A79A008BCB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453397332566A9A5008BCB4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		453397B325675FA7008BCB4A /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		453397B6256773C4008BCB4A /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				453397202566A799008BCB4A /* SceneDelegate.swift */,
 				453397222566A799008BCB4A /* ViewController.swift */,
 				453397242566A799008BCB4A /* Main.storyboard */,
+				453397B6256773C4008BCB4A /* AddNewViewController.swift */,
+				453397B325675FA7008BCB4A /* MainTableViewCell.swift */,
 				453397272566A79A008BCB4A /* Assets.xcassets */,
 				453397292566A79A008BCB4A /* LaunchScreen.storyboard */,
 				453397332566A9A5008BCB4A /* GoogleService-Info.plist */,
@@ -91,7 +97,6 @@
 				2579491175188EEF1D8E0D0F /* Pods-midterm.debug.xcconfig */,
 				34FCBAA898BDE4023218A05A /* Pods-midterm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453397B7256773C4008BCB4A /* AddNewViewController.swift in Sources */,
 				453397232566A799008BCB4A /* ViewController.swift in Sources */,
 				4533971F2566A799008BCB4A /* AppDelegate.swift in Sources */,
+				453397B425675FA7008BCB4A /* MainTableViewCell.swift in Sources */,
 				453397212566A799008BCB4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
